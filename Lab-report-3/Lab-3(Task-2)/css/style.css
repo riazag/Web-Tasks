@@ -27,6 +27,11 @@ header .header-h1 {
   width: 52px;
   height: 61px;
 }
+#sec-T .sec-img:hover {
+  box-shadow: 0 2px 4px rgba(122, 112, 112, 0.1);
+  background: #ede7e7;
+  border-radius: 25px;
+}
 section #sec-p {
   font-weight: bold;
   font-size: 15px;
@@ -140,6 +145,7 @@ section #sec-p {
 }
 .fotr ul li a:hover {
   text-decoration: underline;
+  background: white;
 }
 .fotr #p-1 {
   font-family: "Lato", sans-serif;
