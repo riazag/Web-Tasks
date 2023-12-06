@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <p>The marks of</p>
+    <p id="pname">nn</p> -->
+
+    <!-- <form name="myForm">
+      Data-1 = <input type="text" name="myData" /> Data-2 =
+      <input type="text" name="myData2" />
+      <input type="button" onclick="addData()" />
+    </form> -->
+    <!-- ******************************************************************************** -->
+    <!-- <form name="myForm">
+      Data-1 = <input type="text" name="myData1" />
+      Data-2 =
+      <input type="text" name="myData2" />
+      Data-3 =
+      <input type="text" name="myData3" />
+      <input type="button" onclick="mulData()" />
+    </form> -->
+    <!-- *********************************************************************************** -->
+    <form name="myForm">
+      Password <input type="text" name="ps1" />
+      Confirm Password
+      <input type="text" name="ps2" />
+      <input type="button" onclick="check()" />Check
+    </form>
+    <script>
+      // alert("Its working");
+      // let n1 = 3;
+      // let n2 = 2;
+      // console.log("Result: {0}", n1 + n2);
+      // console.log("Result: {0}", n1 * n2);
+      // console.log("Result: {0}", n1 / n2);
+      // ***************************************************************************
+      // var m = 70;
+      // var name = "bilal";
+      // document.write(
+      //   "<h2> The marks of " + n + " in the subject are " + m + "</h2>"
+      // );
+      // ********************************************************************************
+      // document.getElementById("pname").innerHTML = name;
+      // ********************************************************************************
+      // function showData() {
+      //   var d = document.myForm.myData.value;
+      //   alert(d);
+      // }
+      // ********************************************************************************
+      // function addData() {
+      //   var d1 = document.myForm.myData1.value;
+      //   var d2 = document.myForm.myData2.value;
+      //   var sum = (d1 = d2);
+      //   alert(sum);
+      // }
+      // ********************************************************************************
+      // function mulData() {
+      //   var d1 = document.myForm.myData1.value;
+      //   var d2 = document.myForm.myData2.value;
+      //   var d3 = document.myForm.myData3.value;
+      //   var result = d1 * d2 * d3;
+      //   alert(result);
+      // }
+      // ********************************************************************************
+      function check() {
+        var p1 = document.myForm.ps1.value;
+        var p2 = document.myForm.ps2.value;
+        if (p1 == p2) {
+          alert("Password Correct");
+        } else {
+          alert("Wrong Password");
+        }
+      }
+    </script>
+  </body>
+</html>
