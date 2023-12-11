@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PoundToDollar</title>
+  </head>
+  <body>
+    <form action="#" name="myForm">
+      <label for="">Enter Amount In Pound = </label>
+      <input type="text" name="myData1" />
+      <button type="button" onclick="PoundToDollar()">PoundToDollar</button>
+    </form>
+    <script>
+      function PoundToDollar() {
+        var Pound = document.myForm.myData1.value;
+        var result = Pound * 1.26;
+        alert(Pound + " Pound in Dollar = " + result);
+      }
+    </script>
+  </body>
+</html>

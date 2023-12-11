@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DollarToRupee</title>
+  </head>
+  <body>
+    <form action="#" name="myForm">
+      <label for="">Enter Amount In Dollar = </label>
+      <input type="text" name="myData1" />
+      <button type="button" onclick="DollarToRupee()">DollarToRupee</button>
+    </form>
+    <script>
+      function DollarToRupee() {
+        var dollar = document.myForm.myData1.value;
+        var result = dollar * 284;
+        alert(dollar + "$ in Rupees = " + result);
+      }
+    </script>
+  </body>
+</html>

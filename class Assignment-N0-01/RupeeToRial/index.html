@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RupeeToRial</title>
+  </head>
+  <body>
+    <form action="#" name="myForm">
+      <label for="">Enter Amount In Rupee = </label>
+      <input type="text" name="myData1" />
+      <button type="button" onclick="RupeeToRial()">RupeeToRial</button>
+    </form>
+    <script>
+      function RupeeToRial() {
+        var Rupee = document.myForm.myData1.value;
+        var result = Rupee * 0.013;
+        alert(Rupee + "PKR in Rial = " + result);
+      }
+    </script>
+  </body>
+</html>

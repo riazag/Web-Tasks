@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VolumeOfCylinder</title>
+  </head>
+  <body>
+    <form action="#" name="myForm">
+      <label for="">Radius of Cylinder = </label>
+      <input type="text" name="myData1" />
+      <label for="">Height of Cylinder = </label>
+      <input type="text" name="myData2" />
+      <button type="button" onclick="VolumeOfCylinder()">
+        Calculate Volume
+      </button>
+    </form>
+    <script>
+      function VolumeOfCylinder() {
+        var PI = 3.14;
+        var radius = document.myForm.myData1.value;
+        var height = document.myForm.myData2.value;
+        var result = PI * radius * radius * height;
+        alert("Volume of Cylinder = " + result);
+      }
+    </script>
+  </body>
+</html>

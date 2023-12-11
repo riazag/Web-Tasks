@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VolumeOfBox</title>
+  </head>
+  <body>
+    <form action="#" name="myForm">
+      <label for="">lenght of Box = </label>
+      <input type="text" name="myData1" />
+      <label for="">width of Box = </label>
+      <input type="text" name="myData2" />
+      <label for="">Height of Box = </label>
+      <input type="text" name="myData3" />
+      <button type="button" onclick="VolumeOfBox()">Calculate Volume</button>
+    </form>
+    <script>
+      function VolumeOfBox() {
+        var lenght = document.myForm.myData1.value;
+        var width = document.myForm.myData2.value;
+        var height = document.myForm.myData3.value;
+        var result = lenght * width * height;
+        alert("Volume of Box = " + result);
+      }
+    </script>
+  </body>
+</html>

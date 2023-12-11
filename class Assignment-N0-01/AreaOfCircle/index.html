@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AreaOfCircle</title>
+  </head>
+  <body>
+    <form action="#" name="form">
+      <label for="">Enter the Radius of Circle = </label>
+      <input type="text" name="data" />
+      <button onclick="AreaOFCircle()">Calculate Area</button>
+      <script>
+        function AreaOFCircle() {
+          var PI = 3.14;
+          var radius = document.form.data.value;
+          var Area = PI * radius * radius;
+          alert("Area of Circle = " + Area);
+        }
+      </script>
+    </form>
+  </body>
+</html>
